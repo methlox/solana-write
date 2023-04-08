@@ -1,0 +1,29 @@
+{
+  "name": "solana-write",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/methlox/solana-write.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/methlox/solana-write/issues"
+  },
+  "homepage": "https://github.com/methlox/solana-write#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.75.0",
+    "dotenv": "^16.0.3"
+  }
+}
